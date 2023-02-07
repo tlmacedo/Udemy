@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "python",
+            "name": "gestao_clientes",
+            "arguments": [
+                "manage.py",
+                "runserver",
+                "0.0.0.0:8000"
+            ],
+            "environment": {
+                "DJANGO_SETTINGS_MODULE": "gestao_clientes.settings"
+            }
+        }
+    ]
+}
